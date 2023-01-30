@@ -1,0 +1,42 @@
+{
+  "name": "widget/timeline",
+  "type": "library",
+  "description": "Javascript widget timeline",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "widget",
+    "timeline"
+  ],
+  "homepage": "https://github.com/energia-source/widget-timeline",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    },
+    {
+      "name": "Gabriele Luigi Masero",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Infinite\\": "lib/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "knight/artifact-entity": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/energia-source/knight-artifact-entity"
+    }
+  ]
+}
