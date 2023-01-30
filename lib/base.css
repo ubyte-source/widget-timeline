@@ -1,0 +1,6 @@
+div.timeline { overflow-y: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+div.timeline svg { width: 100%; height: auto; }
+div.timeline svg g.branch text { display: none; }
+div.timeline svg g.branch:hover { cursor: pointer; }
+div.timeline svg g.branch:hover rect { stroke-width: 4; }
+div.timeline svg g.branch:hover text { display: block; }
