@@ -1,6 +1,6 @@
 <?PHP
 
-namespace applications\issue\history\views\get\plugins\setting;
+namespace Timeline\plugins\setting;
 
 use Entity\Map as Entity;
 use Entity\Validation;
